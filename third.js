@@ -256,6 +256,7 @@
 // init or condition k baad block of code execute hota h uske baad in/dc hota h
 
 // wap to print sum of all odd no between 1 to 15
+
 sum=0
 for(let a = 1; a<=15; a++){
     if (a%2==0)
