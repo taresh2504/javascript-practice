@@ -257,12 +257,54 @@
 
 // wap to print sum of all odd no between 1 to 15
 
-sum=0
-for(let a = 1; a<=15; a++){
-    if (a%2==0)
-    {
-        sum = sum + a
-    }
-}
-console.log(sum)
+// sum=0
+// for(let a = 1; a<=15; a++){
+//     if (a%2==0)
+//     {
+//         sum = sum + a
+//     }
+// }
+// console.log(sum)
 
+// js ko hamesa closing body tag ke upar lagana hai
+
+// document.write("<h1>this is <br> js&nbsp&nbsp&nbsp class</h1>")
+
+// nested for loop synatax
+
+// for(){
+//     for(){
+//         ///
+//     }
+// }
+
+
+// for(let a=1;a<6;a++){
+//     document.write("*")
+// }
+
+// for(let a=1; a<=3; a++){
+//     for(let b=1;b<6;b++){
+//         document.write("*")
+//     }
+//     document.write('<br>')
+// }
+
+// for(let a=1;a<=5;a++){
+//     for(let b=1;b-a;b++){
+//         document.write('*')
+//     }
+//     document.write("<br>")
+// }
+
+for(let r=1;r<=5;r++){
+    for(let c=1;c<=5;c++){
+        if(r==1||r==5||c==1||c==5){
+            document.write('*')
+        }
+        else{
+            document.write("&nbsp&nbsp")
+        }
+    }
+    document.write("<br>")
+}
