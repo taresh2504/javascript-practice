@@ -297,14 +297,81 @@
 //     document.write("<br>")
 // }
 
-for(let r=1;r<=5;r++){
-    for(let c=1;c<=5;c++){
-        if(r==1||r==5||c==1||c==5){
-            document.write('*')
-        }
-        else{
-            document.write("&nbsp&nbsp")
+// for(let r=1;r<=5;r++){
+//     for(let c=1;c<=5;c++){
+//         if(r==1||r==5||c==1||c==5){
+//             document.write('*')
+//         }
+//         else{
+//             document.write("&nbsp&nbsp")
+//         }
+//     }
+//     document.write("<br>")
+// }
+
+// Star pattern printing
+// let n = 5
+// for(let r=1;r<n;r++){
+//     for (let c=1;c<n;c++) {
+//         if (r==c||r+c==6){
+//             document.write("*")
+//         }
+//         else{
+//             document.write("&nbsp&nbsp")
+//         }
+//     }
+//     document.write('<br>')
+// }
+
+// Data types
+// primitive = Number,string,boolean,null,undefined
+// non primitive = Array,object,functions
+
+// function = it is a block of code and set of instructions , mainly use for code reusability and syntax of function
+
+// // function identifier (){
+// ////code
+// }
+
+// identifier ()
+
+// 1. function declaration
+// 2. function definition
+// 3. function calling
+
+// function sum()
+// {
+//     let n1 = 10
+//     let n2 = 20
+//     console.log(n1+n2)
+// }
+
+// sum()
+
+// wap to find area of rectangle using function input from user
+
+// function area()
+// {
+//     var l= parseInt(prompt('enter length'))
+//     var b= parseInt(prompt('enter breath'))
+//     console.log(l*b)
+// }
+
+// area()
+
+// wap to 
+
+function num()
+{
+    let a = parseInt(prompt("enter number"))
+    if (a<=20 && a<=11){
+        while(a<1){
+            console.log(a)
+            a--
         }
     }
-    document.write("<br>")
+    else{
+        while()
+    }
 }
+
