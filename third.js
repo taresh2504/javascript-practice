@@ -361,17 +361,79 @@
 
 // wap to 
 
-function num()
+// function num()
+// {
+//     let a = parseInt(prompt("enter number"))
+//     if (a<=20 && a>=11){
+//         while(a<1){
+//             console.log(a)
+//             a--
+//         }
+//     }
+//     else{
+//         while(10<=a){
+//             console.log(a)
+//             a--
+//         }
+//     }
+// }
+
+// let n = parseInt(prompt("enter no. between"))
+// if(n>=11 && n<=20)
+// {
+//     for(let a =20; a>=1; a--){
+//         console.log(a)
+//     }
+// }
+// else (n>=1 && n<=10)
+// {
+//     for (let i = 10; i>=n; i--){
+//         console.log(i)
+//     }
+// }
+
+// 1. pre defined (inbuild)
+// 2. user defined :- 1. no argument & no return
+// 2. with arg & no return
+// 3. with arg & return
+// 4. no arg & return
+
+// function demo(a) :- parameter/formal
+// {
+//     ///
+// }
+
+// demo (8) argument/Actual 
+
+// ex 2 :- with argument and no return
+// function demo(){
+//     console.log()
+// }
+// demo (10)
+
+// wap to take input from the user andf check no is even or odd function type 2
+
+// var a = parseInt(prompt("enter value"))
+// function num()
+// {
+//     if (a%2==0){
+//         console.log("even")
+//     }
+//     else{
+//         console.log("odd")
+//     }
+// }
+
+// num ()
+
+// wap to print a reverse table of any number using function type 2
+
+var i = parseInt(prompt("enteer valu"))
+function tab(c)
 {
-    let a = parseInt(prompt("enter number"))
-    if (a<=20 && a<=11){
-        while(a<1){
-            console.log(a)
-            a--
-        }
-    }
-    else{
-        while()
+    for(var b = 10; b>=1;b--){
+        console.log(b*i)
     }
 }
 
+tab (b)
