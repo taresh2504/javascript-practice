@@ -428,8 +428,6 @@
 
 // wap to print a reverse table of any number using function type 2
 
-
-
 var i = parseInt(prompt("enteer valu"))
 function tab(c)
 {
