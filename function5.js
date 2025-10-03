@@ -129,30 +129,67 @@
 
 // wap to take user input in integer if it is 1 to 5 then check even or odd if even then return sum of 1 to 15 or it is odd then directly print in console
 
-let n = parseInt(prompt("enter num"))
+// let n = parseInt(prompt("enter num"))
 
-function Add (n){
-    var sum =0
-    if (n>=1 && n<=5)
-        {
-            if(n%2==0){
-                for(let a = 1; a<=15; a++)
-            {
-                sum = sum+a
-                alert(sum)
-                return sum
-            }
-            }
-            else
-            {
-                console.log("asdfghjk"+n)
-            }
+// function Add (n){
+//     var sum =0
+//     if (n>=1 && n<=5)
+//         {
+//             if(n%2==0){
+//                 for(let a = 1; a<=15; a++)
+//             {
+//                 sum = sum+a
+//                 alert(sum)
+//                 return sum
+//             }
+//             }
+//             else
+//             {
+//                 console.log("asdfghjk"+n)
+//             }
            
-        }
+//         }
         
+// }
+
+// console.log("dfghjk"+Add(n))
+
+// function type 4 :- no argument with return
+
+// function demo(){
+//     let a = 9
+//     return a+a
+// }
+
+// console.log(demo())
+
+// wap to take input from user and find area of triangle using function type 4
+
+function triangle(){
+    let h = parseInt(prompt("enter h"))
+    let b = parseInt(prompt("enter b"))
+    return 0.5*h*b
 }
 
-console.log("dfghjk"+Add(n))
+console.log(triangle())
+
+// two types of function 
+// function with name is called "named" function
+// function without name is called "anonymous" function
+
+// Arrow function introduced in 2015 it have no name with shorter syntax. it consist of many syntax. curly braces k andar multiple lines likh sakte hai sirf but parenthesis me nhi. single line function k liye use hota h. ecma ne 2015 ne add kiya tha ES6 version me 
+// ()=>{return } 
+// ()=>( )
+//  ()=> 
+//   =>
+//  =>()
+//  =>{return}    
+
+// callback function :- function ke andar function ko callback function kehte h 
+// syntax
+// function fun(function){ 
+//     //
+// } baaki puri body ko high order function kehte hai
 
 
 
