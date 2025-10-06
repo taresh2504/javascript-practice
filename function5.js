@@ -81,18 +81,26 @@
 
 // demo (8) argument/Actual 
 
-// ex 2 :- with argument and no return
-// function demo(){
-//     console.log()
+// ex 1 :- no argument and no return
+// function num(){
+//     console.log("type 1 no argument and no return")
 // }
+
+// num()
+
+// // ex 2 :- with argument and no return
+// function demo(a){
+//     console.log(a)
+// }
+
 // demo (10)
 
 // wap to take input from the user andf check no is even or odd function type 2
 
-// var a = parseInt(prompt("enter value"))
+// var b = parseInt(prompt("enter value"))
 // function num()
 // {
-//     if (a%2==0){
+//     if (b%2==0){
 //         console.log("even")
 //     }
 //     else{
@@ -116,12 +124,12 @@
 
 // function type 3 :- with argument with return type 
 
-// function demo(name){
-//     return name
-// }
+function demo(name){
+    return name
+}
 
-// let a = demo("raj")
-//  console.log(a)
+let a = demo("raj")
+console.log(a)
 
 // // or 
 
@@ -165,31 +173,13 @@
 
 // wap to take input from user and find area of triangle using function type 4
 
-function triangle(){
-    let h = parseInt(prompt("enter h"))
-    let b = parseInt(prompt("enter b"))
-    return 0.5*h*b
-}
+// function triangle(){
+//     let h = parseInt(prompt("enter h"))
+//     let b = parseInt(prompt("enter b"))
+//     return 0.5*h*b
+// }
 
-console.log(triangle())
-
-// two types of function 
-// function with name is called "named" function
-// function without name is called "anonymous" function
-
-// Arrow function introduced in 2015 it have no name with shorter syntax. it consist of many syntax. curly braces k andar multiple lines likh sakte hai sirf but parenthesis me nhi. single line function k liye use hota h. ecma ne 2015 ne add kiya tha ES6 version me 
-// ()=>{return } 
-// ()=>( )
-//  ()=> 
-//   =>
-//  =>()
-//  =>{return}    
-
-// callback function :- function ke andar function ko callback function kehte h 
-// syntax
-// function fun(function){ 
-//     //
-// } baaki puri body ko high order function kehte hai
+// console.log(triangle())
 
 
 
