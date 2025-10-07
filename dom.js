@@ -14,3 +14,6 @@ c.setAttribute('align','center')
 document.body.setAttribute('bgcolor','red')  //document.body se body change hoti hai
 
 document.getElementById('head1').removeAttribute('style')
+
+var x = document.getElementById('pic')
+x.setAttribute('src','filename.jpg','TARESHP2.jpg')
