@@ -19,10 +19,17 @@
 
 // document.getElementById('parent').append(tag)
 
-let y = document.createElement('p')
-y.textContent='this is a js class'
-console.log(y)
+// let y = document.createElement('p')
+// y.textContent='this is a js class'
+// console.log(y)
 
-document.getElementById(tv).append(y)
+// document.getElementById('tv').append(y)
+
+for(let z =1; z<=10; z++){
+    document.write(z)
+}
 
 // hw make a list of 10 items and on even bg will green,padding 12px,and font white
+
+document.getElementById('img').src='tiger.jpg'
+
