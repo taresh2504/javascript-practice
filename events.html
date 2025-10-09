@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #text{
+            padding: 20px;
+            background-color: green;
+        }
+    </style>
 </head>
 <body>
     <!-- events are called actions which performed by the user on our webpage -->
@@ -39,6 +45,15 @@
      <h1 id="zero">0</h1>
      <button onclick="add()">+</button>
      <button onclick="sub()">-</button>
+
+     <!-- Task -->
+
+      <h1 id="text" onmouseenter="change()" onmouseleave="change1()">Tap Here</h1>
+
+      <br><br>
+      <button id="mob" onclick="mob()">Mobile</button>
+      <h1 id="lap" onmouseenter="lap()">Laptop</h1>
+      <button id="tab" oncontextmenu="tab()">Tablet</button>
 
      <script src="events.js"></script>
 </body>
