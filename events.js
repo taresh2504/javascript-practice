@@ -42,29 +42,36 @@ function sub(){
 }
 
 function change(){
-  document.getElementById('btn').textContent = "get lost"
-  document.getElementById('btn').style.backgroundColor='red'
+  document.getElementById('text').textContent = "get lost"
+  document.getElementById('text').style.backgroundColor='red'
 }
 
 function change1(){
-  document.getElementById('btn').textContent = "tap here"
-  document.getElementById('btn').style.backgroundColor='green'
+  document.getElementById('text').textContent = "tap here"
+  document.getElementById('text').style.backgroundColor='green'
 }
 
-function mob(){
-  var a =  document.getElementById('mob')
-  a.setAttribute=('mobile.jpeg','height : 200px')
+function fun1(){
+    document.getElementById('image').src='mobile.jpeg'
+  // a.setAttribute('src','mobile.jpeg')
 }
 
-function lap(){
-  var b =  document.getElementById('lap')
-  b.setAttribute=('laptop.png','height : 200px')
+function fun2(){
+    document.getElementById('image').src='laptop.png'
+  // a.setAttribute=('src','laptop.png')
 }
 
-function tab(){
-  var c =  document.getElementById('tab')
-  c.setAttribute=('tablet.jpeg','height : 200px')
+function fun3(){
+   document.getElementById('image').src='tablet.jpeg'
+  // a.setAttribute=('src','tablet.jpeg')
 }
+
+// array :- stores multiple type of data 
+
+// dom me saare element node list hote h
+
+
+
 
 
 

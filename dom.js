@@ -16,4 +16,4 @@ document.body.setAttribute('bgcolor','red')  //document.body se body change hoti
 document.getElementById('head1').removeAttribute('style')
 
 var x = document.getElementById('pic')
-x.setAttribute('src','filename.jpg','TARESHP2.jpg')
+x.setAttribute('src','TARESHP2.jpg')
