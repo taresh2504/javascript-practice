@@ -66,7 +66,7 @@ function fun3(){
   // a.setAttribute=('src','tablet.jpeg')
 }
 
-// array :- stores multiple type of data 
+// array :- stores multiple type of data in js
 
 // dom me saare element node list hote h
 
