@@ -12,8 +12,6 @@ function both(){
     
 }
 
-
-
 function ch(){
     document.body.classList.toggle('color')
     let cn = document.querySelector('#container')
@@ -25,4 +23,6 @@ function ch(){
        document.getElementById('dom')
     }
 }
+
+
 
