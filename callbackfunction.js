@@ -21,3 +21,17 @@ function rest(){
     clearInterval(st)
 }
 
+// settimeout
+// setTimeout(()=>{
+//     alert('working...')
+// },3000)
+
+setTimeout(()=>{
+    document.querySelector('form').style.display='block'
+},5000)
+
+function demo(){
+   setTimeout(()=>{
+    document.querySelector('#img').style.display='block'
+},3000)
+}
