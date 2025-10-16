@@ -35,3 +35,51 @@ function demo(){
     document.querySelector('#img').style.display='block'
 },3000)
 }
+
+// create button and after clicking on button it will alert a message that 1st time call,2nd time call
+
+let h = 0
+function num1(){
+    setInterval(()=>{
+       
+    },3000)
+}
+
+// tg = b, fb= blue, wh = gr, sn = ye, ins = red
+
+function t1(){
+    let a = document.getElementById('tg')
+    a.style.color='blue'
+    let b = document.getElementById('cto')
+    b.innerHTML='telegram is in blue color'
+}
+
+function f1(){
+    let a = document.getElementById('fb')
+    a.style.color='blue'
+    let b = document.getElementById('cto')
+    b.innerHTML='facebook is in blue color'
+}
+
+function w1(){
+    let a = document.getElementById('wp')
+    a.style.color='green'
+    let b = document.getElementById('cto')
+    b.innerHTML='whatsapp is in green color'
+}
+
+function s1(){
+    let a = document.getElementById('sn')
+    a.style.color='yellow'
+    let b = document.getElementById('cto')
+    b.innerHTML='telegram is in blue color'
+}
+
+function i1(){
+    let a = document.getElementById('ig')
+    a.style.color='red'
+    a.innerHTML='instagram is in red color'
+}
+
+
+
