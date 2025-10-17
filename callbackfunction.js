@@ -61,6 +61,8 @@ function f1(){
     b.innerHTML='facebook is in blue color'
 }
 
+
+
 function w1(){
     let a = document.getElementById('wp')
     a.style.color='green'
