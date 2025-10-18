@@ -11,6 +11,8 @@ function fun(){
     },1000)
 }
 
+
+
 function stop(){
     clearInterval(st)
 }
@@ -60,8 +62,6 @@ function f1(){
     let b = document.getElementById('cto')
     b.innerHTML='facebook is in blue color'
 }
-
-
 
 function w1(){
     let a = document.getElementById('wp')
