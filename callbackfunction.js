@@ -11,11 +11,11 @@ function fun(){
     },1000)
 }
 
-
-
 function stop(){
     clearInterval(st)
 }
+
+
 
 function rest(){
     a=0
