@@ -15,8 +15,6 @@ function stop(){
     clearInterval(st)
 }
 
-
-
 function rest(){
     a=0
     h1.innerHTML=a
