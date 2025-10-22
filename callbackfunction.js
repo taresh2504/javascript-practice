@@ -21,8 +21,6 @@ function rest(){
     clearInterval(st)
 }
 
-
-
 // settimeout
 // setTimeout(()=>{
 //     alert('working...')
