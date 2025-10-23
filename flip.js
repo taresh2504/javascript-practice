@@ -6,7 +6,7 @@
 // document.getElementById('b').style.color='green'
 // document.getElementById('c').style.color='blue'
 // document.getElementById('d').style.color='aqua'
-// document.getElementById('e').style.color='purple'
+// document.getElementById('e').style.color='purple' 
 
 let a = document.getElementsByClassName('x')
 a[0].style.color='red'

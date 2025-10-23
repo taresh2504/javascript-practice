@@ -26,7 +26,7 @@ function fun1(){
     document.getElementById('head1').textContent='changed by js'
 }
 
-// H.W
+// H.W 
 var i = 0
 function add(){
     var a =  document.getElementById('zero').innerText=++i
