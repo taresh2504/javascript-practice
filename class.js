@@ -9,22 +9,25 @@ function remov(){
 }
 
 function both(){
-
-
-    
 }
 
 function ch(){
     document.body.classList.toggle('color')
-    let cn = document.querySelector('#container')
-    cn.classList.toggle('wrapper')
-    if (cn==true){
-       document.getElementById('dom').textContent='dark'
+    let cn = document.querySelector('#dom')
+    cn.classList.toggle('color')
+    if (cn==1){
+    document.getElementById('dom').textContent='light'
     }
     else{
-       document.getElementById('dom')
+    document.getElementById('dom').textContent='dark'
     }
 }
 
+
+
+function num(){
+    var a = document.querySelector('#practice')
+    a.classList.toggle('flavour')
+}
 
 
