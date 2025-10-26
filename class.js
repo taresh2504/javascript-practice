@@ -16,14 +16,12 @@ function ch(){
     let cn = document.querySelector('#dom')
     cn.classList.toggle('color')
     if (cn==1){
-    document.getElementById('dom').textContent='light'
+    let cn = document.getElementById('dom').textContent='light'
     }
     else{
     document.getElementById('dom').textContent='dark'
     }
 }
-
-
 
 function num(){
     var a = document.querySelector('#practice')
