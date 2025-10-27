@@ -6,9 +6,6 @@ function fun1(){
     setInterval(()=>{console.log('button clicked and repeat in 3 seconds')},3000)
 }
 
-
-
-
 let a = 0
 let h1 = document.querySelector('#num')
 let st
@@ -32,7 +29,6 @@ function rest(){
 // setTimeout(()=>{
 //     alert('working...')
 // },3000)
-
 
 setTimeout(()=>{
     document.querySelector('form').style.display='block'

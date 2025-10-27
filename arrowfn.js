@@ -34,3 +34,5 @@
 // agar hame html ya css ke andar kuch change krna hai to dom ke through target krna padega.
 // jaise agar apan ko kisi text ko change krna hai to apne ko js ke through target krna padega.
 
+// agar js ke through direct properties set krni hai bina onclick,etc type ke function ke to addEventListener(event,function) ka istemaal hota hai
+
