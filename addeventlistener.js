@@ -28,3 +28,5 @@ document.querySelector('#sub').addEventListener('click',function(){
 document.querySelector('#rst').addEventListener('click',function(){
     document.querySelector('#ctr').innerHTML= a = 0
 })
+
+
