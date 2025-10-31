@@ -22,6 +22,7 @@ function validate(){
         document.querySelector('#age').focus()
         return false
     }
+
     else if(age == ''){
         alert('please enter age in numbers')
         document.querySelector('#age').focus()
@@ -37,6 +38,23 @@ function validate(){
     if(email == ''){
         alert('please fill your email')
         document.querySelector('#email').focus()
+        return false
+    }
+}
+
+let age2 = document.querySelector('#eage').value
+let contact = document.querySelector('#ectn').value
+
+function fun2(){
+    if (age2 >=0 || age2 >=3 ){
+        alert('please fill your age')
+        document.querySelector('#age2').focus()
+        return false
+    }
+
+    if(contact <10 || contact >10){
+        alert('enter your correct contact detail')
+        document.querySelector('#ectn').focus()
         return false
     }
 }
