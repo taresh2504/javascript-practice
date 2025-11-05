@@ -33,3 +33,5 @@ for(let z =1; z<=10; z++){
 
 document.getElementById('img').src='tiger.jpg'
 
+
+
