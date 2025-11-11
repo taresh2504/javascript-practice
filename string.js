@@ -16,7 +16,7 @@ console.log(db.trimEnd())
 let faculty = 'By Qasim'
 let st = 'this is javascript'
 
-// template literals `` :- template literals backtick se denote hota h or isse apan html bhi add kar sakte hai. isse apan dusri line me bhi likh sakte h 
+// template literals `` :- template literals backtick se denote hota h or isse apan html bhi add kar sakte hai. isse apan dusri line me bhi likh sakte h. $ se variable adde krte h 
 
 let st1=`this is javascript
 class ${faculty}`
