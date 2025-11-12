@@ -23,7 +23,7 @@ async function access(){
     let res = await data.json()
     let result = res.map((e)=>`
     <tr>
-       <td> ${e.userID} </td>
+       <td> ${e.userId} </td>
        <td> ${e.id} </td>
        <td> ${e.title} </td>
     </tr>
@@ -32,6 +32,8 @@ async function access(){
     document.querySelector('#showdata').innerHTML = result
 
 }    
+
+access()
 
 
 
