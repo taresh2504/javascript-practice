@@ -11,6 +11,7 @@ function validate(){
         return false
     }
 
+    
     if(address == ''){
         alert('please fill your address')
         document.querySelector('#address').focus()

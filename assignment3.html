@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    form {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      width: 400px;
+    }
+    input {
+      margin: 5px 0;
+      padding: 5px;
+      width: 90%;
+    }
+    button {
+      padding: 5px 10px;
+      margin-top: 5px;
+      cursor: pointer;
+    }
+    .output {
+      margin-top: 10px;
+      color: darkblue;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>1 Uppercase Name</h2>
+  <form id="form1">
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button type="submit">Submit</button>
+    <div class="output" id="nameOutput"></div>
+  </form>
+
+  <h2>2 Lowercase City</h2>
+  <form id="form2">
+    <input type="text" id="cityInput" placeholder="Enter your city">
+    <button type="submit">Submit</button>
+    <div class="output" id="cityOutput"></div>
+  </form>
+
+  <h2>3 Trim Both Sides</h2>
+  <form id="form3">
+    <input type="text" id="trimInput" placeholder='Try typing "  Hello World  "'>
+    <button type="submit">Submit</button>
+    <div class="output" id="trimOutput"></div>
+  </form>
+
+  <h2>4 Trim Start Only</h2>
+  <form id="form4">
+    <input type="text" id="trimStartInput" placeholder='Try typing "   Hello"'>
+    <button type="submit">Submit</button>
+    <div class="output" id="trimStartOutput"></div>
+  </form>
+
+  <h2>5 Trim End Only</h2>
+  <form id="form5">
+    <input type="text" id="trimEndInput" placeholder='Try typing "Hello   "'>
+    <button type="submit">Submit</button>
+    <div class="output" id="trimEndOutput"></div>
+  </form>
+
+  <h2>6 Template Literal (Name + Course)</h2>
+  <form id="form6">
+    <input type="text" id="firstNameInput" placeholder="Enter your name">
+    <input type="text" id="courseInput" placeholder="Enter your course">
+    <button type="submit">Submit</button>
+    <div class="output" id="courseOutput"></div>
+  </form>
+
+  <h2>7 Message Transformations</h2>
+  <form id="form7">
+    <input type="text" id="messageInput" placeholder='Type a message with spaces'>
+    <button type="submit">Submit</button>
+    <div class="output" id="messageOutput"></div>
+  </form>
+
+
+  <script src="assignment3.js"></script>
+
+</body>
+</html>
