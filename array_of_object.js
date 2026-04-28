@@ -62,7 +62,7 @@ let ar = [{name: 'abc',
 let [name,city,country,state] = ['tanmay','bpl','india','m.p']
 console.log(name)
 
-// spred operator = ... merge krne ka kaam krta hai 
+// spread operator = ... merge krne ka kaam krta hai 
 
 let ar1 = [1,2,3]
 let ar2 = [4,5,6,...ar1]
@@ -73,4 +73,5 @@ console.log(ar2)
 
 let {nam,cit,co,st} = {name:'tanmay', city :'bpl', co: 'india', st:'m.p'}
 console.log(name)
+
 

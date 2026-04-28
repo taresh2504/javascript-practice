@@ -86,3 +86,4 @@ function num1(){
 //     a.innerHTML='instagram is in red color'
 // }
 
+

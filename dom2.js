@@ -13,6 +13,7 @@
 // let x = document.getElementById('chair')
 // x.style.cssText = 'background-color:purple;color:white;padding:50px'
 
+
 // let tag = document.createElement('h1')
 // tag.textContent="new element from js"
 // console.log(tag);
@@ -32,6 +33,7 @@ for(let z =1; z<=10; z++){
 // hw make a list of 10 items and on even bg will green,padding 12px,and font white
 
 document.getElementById('img').src='tiger.jpg'
+
 
 
 

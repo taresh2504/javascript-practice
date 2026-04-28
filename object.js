@@ -47,7 +47,7 @@
 //     age : 29
 // }
 
-// console.log(ob['full name']) // bracket notation
+// console.log(ob['full name']) // bracket notation :- used to find index value
 
 let student = {
     stname : prompt('enter name :' ),
@@ -73,4 +73,5 @@ for(let k in student){
 
 let vl = Object.values(student)
 console.log(vl)
+
 

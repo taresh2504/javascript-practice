@@ -1,12 +1,12 @@
-// let ar = ['Taresh','20','bhopal','india']
+let ar = ['Taresh','20','bhopal','india']
 
-// for (let vl of ar){
-//     console.log(vl);
-// }
+for (let vl of ar){  // for of se value print hoti h
+    console.log(vl);
+}
 
 // // create a array in which no. between 25 to 1 usme se jeetne even no. aa rhe uska square print krna h
 
-// let num = [25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]
+let num = [25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]
 
 // // for off loop syntax
 // for (let even of num){
@@ -15,10 +15,10 @@
 //     }
 // }
 
-// // for in loop syntax
-// for(let k in num){
-//     console.log(k);
-// }
+// for in loop syntax  // for in se index value print hoti h
+for(let k in num){
+    console.log(k);
+}
 
 // array functions
 

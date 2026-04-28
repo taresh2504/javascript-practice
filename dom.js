@@ -19,3 +19,4 @@ document.getElementById('head1').removeAttribute('style')
 
 var x = document.getElementById('pic')
 x.setAttribute('src','TARESHP2.jpg')
+

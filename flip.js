@@ -39,3 +39,4 @@ function fun3(){
     h.setAttribute('src','mobile.jpeg')
 }
 
+
