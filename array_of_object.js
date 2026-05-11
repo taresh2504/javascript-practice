@@ -36,12 +36,15 @@
 //    return 
 //      })
 
+
+
 let ar = [{name: 'abc',
            age: 17
 },
 {name: 'xyz',
     age: 20
 }]
+
 
 // let res = ar.map((e)=>{
 //     return e.age + " " +e.name
